@@ -1,0 +1,11 @@
+name: utils
+description: The interface and models for an API providing access to users.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  dio: ^4.0.0
+  meta: ^1.3.0

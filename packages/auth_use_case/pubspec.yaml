@@ -1,0 +1,15 @@
+name: authentication_use_case
+description: The interface and models for an API providing access to users.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  authentication_domain:
+    path: ../domain
+  injectable: ^1.5.0
+  
+  dartz: ^0.10.1
+  
